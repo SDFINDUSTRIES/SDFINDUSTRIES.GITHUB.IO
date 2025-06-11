@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>S D Foam Industries</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; scroll-behavior: smooth; }
     header, nav, footer { background: #2c3e50; color: #fff; padding: 10px 20px; }
     nav a { color: white; margin: 0 10px; text-decoration: none; }
     section { padding: 40px 20px; }
@@ -15,7 +15,7 @@
       color: #fff;
       padding: 80px 20px;
     }
-    footer p { margin: 5px 0; }
+    footer p { margin: 5px 0; text-align: center; }
     .logo-box {
       display: flex;
       align-items: center;
@@ -29,17 +29,25 @@
       font-weight: bold;
       color: white;
     }
+    img.whatsapp-icon {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
   </style>
 </head>
 <body>
+
+  <!-- Header -->
   <header>
     <div class="logo-box">
-      <img src="assets/logo.png" alt="SD Foam Logo">
+      <img src="assets/logo.png" alt="SD Foam Logo" />
       <div class="logo-title">S D FOAM INDUSTRIES</div>
     </div>
     <p>PU Foam, Bonded Foam, Memory Foam & Mattress Manufacturer</p>
   </header>
 
+  <!-- Navigation -->
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
@@ -48,16 +56,19 @@
     <a href="#contact">Contact</a>
   </nav>
 
+  <!-- Home -->
   <section id="home" class="bg" style="background-image: url('assets/background_home.jpg');">
     <h2>Welcome to S D Foam Industries</h2>
     <p>We manufacture premium quality PU, Bonded and Memory Foam mattresses for every comfort need.</p>
   </section>
 
+  <!-- About -->
   <section id="about" class="bg" style="background-image: url('assets/background_about.jpg');">
     <h2>About Us</h2>
     <p>With years of experience in the industry, we serve clients across India with high-quality foam solutions including orthopedic, luxury and commercial-grade mattresses.</p>
   </section>
 
+  <!-- Services -->
   <section id="services" class="bg" style="background-image: url('assets/background_services.jpg');">
     <h2>Our Products & Services</h2>
     <ul>
@@ -68,6 +79,7 @@
     </ul>
   </section>
 
+  <!-- Gallery -->
   <section id="gallery" class="bg" style="background-image: url('assets/background_gallery.jpg');">
     <h2>Gallery</h2>
     <p>Our recent work and factory glimpses</p>
@@ -78,18 +90,64 @@
     <img src="assets/image7.jpg" width="100" />
   </section>
 
+  <!-- Contact -->
   <section id="contact" class="bg" style="background-image: url('assets/background_contact.jpg');">
     <h2>Contact Us</h2>
     <p><strong>Address:</strong> Mangala to Sahidawali Road, Village Mangala, Distt. Sirsa – 125055, Haryana</p>
-    <p><strong>Office:</strong> +91-8950496914</p>
-    <p><strong>Mr. Deepak Kumar:</strong> +91-8571042210</p>
-    <p><strong>General Manager - Mr. Dinesh Giri:</strong> 8368926021</p>
-    <p><strong>Mattress Manager - Mr. Pankaj Sharma:</strong> 7703820327</p>
-    <p><strong>Sr. Salesman - Mr. Pawan:</strong> 7347683905</p>
+
+    <!-- Office Call + WhatsApp -->
+    <p>
+      <strong>Office:</strong>
+      <a href="tel:+918950496914" style="color: yellow;">Call</a> |
+      <a href="https://wa.me/918950496914" target="_blank">
+        <img src="assets/whatsapp-icon.png" class="whatsapp-icon" alt="WhatsApp" /> WhatsApp
+      </a>
+    </p>
+
+    <!-- Mr. Deepak - Only WhatsApp -->
+    <p>
+      <strong>Mr. Deepak Kumar:</strong>
+      <a href="https://wa.me/918571042210" target="_blank">
+        <img src="assets/whatsapp-icon.png" class="whatsapp-icon" alt="WhatsApp" /> WhatsApp
+      </a>
+    </p>
+
+    <!-- General Manager -->
+    <p>
+      <strong>General Manager - Mr. Dinesh Giri:</strong>
+      <a href="https://wa.me/918368926021" target="_blank">
+        <img src="assets/whatsapp-icon.png" class="whatsapp-icon" alt="WhatsApp" /> WhatsApp
+      </a>
+    </p>
+
+    <!-- Mattress Manager -->
+    <p>
+      <strong>Mattress Manager - Mr. Pankaj Sharma:</strong>
+      <a href="https://wa.me/917703820327" target="_blank">
+        <img src="assets/whatsapp-icon.png" class="whatsapp-icon" alt="WhatsApp" /> WhatsApp
+      </a>
+    </p>
+
+    <!-- Sr. Salesman -->
+    <p>
+      <strong>Sr. Salesman - Mr. Pawan:</strong>
+      <a href="https://wa.me/917347683905" target="_blank">
+        <img src="assets/whatsapp-icon.png" class="whatsapp-icon" alt="WhatsApp" /> WhatsApp
+      </a>
+    </p>
+
+    <!-- Emails -->
     <p><strong>Email:</strong> sdfoamindustries@gmail.com | bhanisaini87@gmail.com</p>
-    <p><a href="assets/catalogue.jpg" download style="color: yellow;">Download Product Catalogue (PDF)</a></p>
+
+    <!-- PDF -->
+    <p>
+      <a href="assets/catalogue.jpg" download style="color: yellow;">
+        Download Product Catalogue (PDF)
+      </a>
+    </p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 S D Foam Industries. All rights reserved.</p>
   </footer>
